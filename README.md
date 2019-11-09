@@ -9,4 +9,4 @@
 ### open your favourite browser and go to <a href="http://localhost/wordpress/">Grid</a>
   
 ## Another steps 
-### go to any wordpress dashboard and setup all-in-one wp migiration then import this <a href="">wp-file</a>
+### go to any wordpress dashboard and setup all-in-one wp migiration then import this <a href="https://drive.google.com/open?id=1bP3hmkxqgAas8eYWUdlmK4sYfeBeacEU">wp-file</a>
