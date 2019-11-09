@@ -1,0 +1,26 @@
+2019-11-09T00:16:30+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in D:\xampp\htdocs\wordpress\wp-includes\Requests\Transport\cURL.php on line 463
+
+2019-11-09T09:21:35+00:00 CRITICAL Uncaught Error: Call to a member function enqueue_styles() on null in D:\xampp\htdocs\wordpress\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php:143
+Stack trace:
+#0 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): Header_Footer_Elementor->enqueue_scripts('')
+#1 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\wordpress\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\wordpress\wp-includes\script-loader.php(2537): do_action('wp_enqueue_scri...')
+#4 D:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 D:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 D in D:\xampp\htdocs\wordpress\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php on line 143
+
+2019-11-09T09:21:41+00:00 CRITICAL Uncaught Error: Call to a member function enqueue_styles() on null in D:\xampp\htdocs\wordpress\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php:143
+Stack trace:
+#0 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): Header_Footer_Elementor->enqueue_scripts('')
+#1 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp\htdocs\wordpress\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\wordpress\wp-includes\script-loader.php(2537): do_action('wp_enqueue_scri...')
+#4 D:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 D:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 D:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 D in D:\xampp\htdocs\wordpress\wp-content\plugins\header-footer-elementor\inc\class-header-footer-elementor.php on line 143
+
